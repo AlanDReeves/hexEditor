@@ -5,4 +5,5 @@ int readBytes(FILE *ptr, char* buffer, int size);
 int printBytes(char* buffer, int size);
 long getNewOffset();
 void printHelp();
+int editBits(FILE *ptr);
 #endif
