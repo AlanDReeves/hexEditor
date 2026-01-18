@@ -1,0 +1,17 @@
+Hex editor
+
+take file name as command line argument
+open in read binary mode
+print first byte to terminal as both hexidecimal and ascii if possible
+
+edit:
+	ask user for new value
+	write in the new value at the current offset
+	show user the new value in the file
+
+goto:
+	ask user for new offset
+	print that value as above
+
+next:
+	increment offset by 1 and print
